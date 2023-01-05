@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-say_my_name = __import__('3-say_my_name').say_my_name
+add_integer = __import__('0-add_integer').add_integer
 
-say_my_name("John", "Smith")
-say_my_name("Walter", "White")
-say_my_name("Bob")
+print(add_integer(1, 2))
+print(add_integer(100, -2))
+print(add_integer(2))
+print(add_integer(100.3, -2))
 try:
-    say_my_name(12, "White")
+    print(add_integer(4, "School"))
+except Exception as e:
+    print(e)
+try:
+    print(add_integer(None))
 except Exception as e:
     print(e)
