@@ -187,4 +187,3 @@ class Rectangle(Base):
                 self.__y = kwargs.get("y")
             if "id" in kwargs:
                 self.id = kwargs.get("id")
-
