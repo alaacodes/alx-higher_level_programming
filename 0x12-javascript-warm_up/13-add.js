@@ -7,5 +7,5 @@ module.exports = {
    *
    * @returns The sum of the 2 numbers.
    */
-  add: (a, b) => a + b;
+  add: (a, b) => a + b
 }
