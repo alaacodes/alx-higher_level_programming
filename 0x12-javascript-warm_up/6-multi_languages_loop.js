@@ -1,6 +1,10 @@
- = 2;
+#!/usr/bin/node
+const texts = [
+  'C is fun',
+  'Python is cool',
+  'JavaScript is amazing'
+];
 
-while (i < process.argv.length) {
-  console.log(process.argv[i]);
-  i++;
+for (let i = 0; i < texts.length; i++) {
+  console.log(texts[i]);
 }
